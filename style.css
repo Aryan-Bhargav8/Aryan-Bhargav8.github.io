@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Rubik+Scribble&display=swap');
+
+
+body {
+    background-color: #c8ad7f;
+}
+
+.content1 {
+    display: flex;
+    font-family: Rubik Scribble, sans-serif;
+    font-size: 2rem;
+    color: white;
+    background-color: red;
+    height:20vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+
+}
+.content2 {
+    font-family: Hammersmith One, sans-serif;
+    font-size: 2rem;
+    background-color: blue;
+    height: 20vh;
+    background-image: url('/public/Aryan-logos_transparent.png');
+    background-size: contain;
+    background-position: center;
+}
