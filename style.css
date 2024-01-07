@@ -1,30 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Rubik+Scribble&family=Ubuntu&display=swap');
 
 
 body {
-    background-color: #c8ad7f;
+    background-image: url('/public/flower.jpg');
+    background-position: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    z-index: -1;
 }
 
-.content1 {
+/* NavBar */
+
+.NavBar {
     display: flex;
-    font-family: Rubik Scribble, sans-serif;
+    font-family:Ubuntu;
     font-size: 2rem;
     color: white;
-    background-color: red;
-    height:20vh;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    
+    background-color: rgb(8, 10, 32);
+    height: 5.5vh; ;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    font-size: 2.7rem;
+    color: yellow;
+    text-decoration: none;
+    background-color: coral;
+    border: solid yellow 2px;
+    margin-left: -6px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.logo img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    size: contain;
 
 }
-.content2 {
-    font-family: Hammersmith One, sans-serif;
-    font-size: 2rem;
-    background-color: blue;
-    height: 20vh;
-    background-image: url('/public/Aryan-logos_transparent.png');
-    background-size: contain;
-    background-position: center;
+
+
+
+
+
+/* Hero section */
+
+.Hero {
+    display: flex;
+    background-color: rgba(0, 128, 0, 0.5);
+    height: 94.5vh;
+    width: 50%;
+    justify-content: center;
+    align-items: center;  
 }
+
+.Hero h1{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 6rem;
+    color: rgb(255, 217, 0);
+    text-shadow: 2px 2px 2px black;
+ 
+   
+  
+}
+.Hero span {
+    border: 5px solid rgb(255, 217, 0);
+    
+}
+
+
