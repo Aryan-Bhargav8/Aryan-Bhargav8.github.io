@@ -16,7 +16,6 @@ body {
 .NavBar {
     display: flex;
     font-family:Ubuntu;
-    font-size: 2rem;
     color: white;
     background-color: rgb(8, 10, 32);
     height: 5.5vh; ;
@@ -26,7 +25,7 @@ body {
 }
 
 .menu a {
-    font-size: 2.7rem;
+    font-size: 4.4vh;
     color: yellow;
     text-decoration: none;
     background-color: coral;
@@ -37,8 +36,8 @@ body {
 
 .logo img{
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 17vh;
+    height: 17vh;
     size: contain;
 
 }
